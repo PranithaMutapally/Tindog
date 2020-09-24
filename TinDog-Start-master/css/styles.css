@@ -1,0 +1,186 @@
+body{
+    font-family: 'Markazi Text', serif; 
+}
+
+#title{
+    background-color: crimson;
+    padding: 100px;
+}
+
+.title-heading{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: darkgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+} 
+
+.title-img{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+.download-btn{
+    margin: 0 18px;
+ }
+ 
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 5rem;
+}
+
+.navbar-brand:hover{
+border: 1px solid;
+    background-color: darkorange;
+}
+
+.nav-item{
+    padding: 0 18px 50px;
+}
+
+
+
+
+
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+   position: relative;
+   z-index: 1;
+}
+
+.feature-box{
+    
+    text-align: center;padding: 5%;
+    color: gray;
+  
+}
+
+
+}
+.heading-text{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.short-text{
+    font-size: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.icon{
+    color: #ef8172;
+    padding: 5%;
+}
+
+.icon:hover{
+    color: crimson;
+}
+
+ #testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+   
+} 
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    padding: 5%;
+    width: 20%;
+    border-radius:100%;
+}
+
+.testimonal-text{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+.card{
+    text-align: center;
+}
+
+#pricing{
+    padding: 100px;
+    
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.pricing-hd{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+ 
+.pricing-hd:hover{
+    background-color: darkslategrey;
+}
+
+
+
+#cta{
+    text-align: center;
+    background-color: crimson;
+}
+
+.cta-text{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3rem;
+    width: 60%;
+    padding: 5%;
+    margin: auto;
+}
+.cta-btn{
+    margin: 5% 3% ;
+}
+
+#footer{
+    text-align: center;
+    color: black;
+  
+    padding: 5% 0%;
+}
+.media-logo{
+         
+padding: 3% 1%;
+}
+
+
+@media (max-width:1028px){
+
+  #title{
+      text-align: center;
+  }
+
+   .title-img{
+    position: static;
+    transform: rotate(0);
+   }
+
+}
